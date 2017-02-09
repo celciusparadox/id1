@@ -1,4 +1,31 @@
-body {width:100%;}
-img {width:100%;}
-img#smallerpic {width:70%;}
-p {width:80%;}
+body {
+    margin: 0;
+    width:100%;
+}
+img {
+    width:100%;
+}
+h1 {
+    font-family: 'Sansita', sans-serif;
+    padding-left: 40%;
+    
+}
+
+p {
+    font-family: 'Sansita', sans-serif;
+    width:80%;
+    text-align: justify;
+    padding-left: 10%;
+   
+}
+img#firstpic {
+    width: 70%;
+    padding-left: 15%;
+}
+img#smallerpic {
+    width:70%;
+    padding-left: 15%;
+}
+
+
+
