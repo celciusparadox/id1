@@ -4,12 +4,15 @@ body {
     margin: 0;
     width:100%;
 }
+img#motiongraphic {
+    width:100%;
+    position:inherit;
+}
 h2 {
     font-family: 'Noto Sans', sans-serif;
     font-size:18px;
     padding-left: 30%;
     padding-right:20%;
-    
 }
 
 p {
@@ -17,27 +20,28 @@ p {
     width:50%;
     text-align: justify;
     padding-left: 25%;
-   
 }
 img#firstpic {
     width: 65%;
     padding-left:17%;
 }
 img#smallerpic {
-    position:relative;
+    position:absolute;
     width:65%;
     padding-left: 19%;
 }
 h1 {
+    font-family: 'face your fears';
+urlhttps://drive.google.com/file/d/0B9y-4eCD0vHnYXQzTVFHdWE3cms/view?usp=sharing;
+    color: #B40A12;
     position:absolute;
     top:1300px;
-   padding-left: 10%;
-  width:100%
-        
-    
+    padding-left: 10%;
+   width:100%
 }
 img#footer {
     width:100%;
+    
 }
 
 
