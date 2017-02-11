@@ -1,4 +1,6 @@
 body {
+    background-color: black;
+    color: white;
     margin: 0;
     width:100%;
 }
@@ -19,12 +21,12 @@ p {
    
 }
 img#firstpic {
-    width: 70%;
-    padding-left: 15%;
+    width: 63%;
+    padding-left:17%;
 }
 img#smallerpic {
-    width:60%;
-    padding-left: 20%;
+    width:65%;
+    padding-left: 19%;
 }
 
 
