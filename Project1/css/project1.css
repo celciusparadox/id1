@@ -6,7 +6,7 @@ body {
 }
 img#motiongraphic {
     width:100%;
-    position:inherit;
+   
 }
 h2 {
     font-family: 'Noto Sans', sans-serif;
@@ -26,23 +26,11 @@ img#firstpic {
     padding-left:17%;
 }
 img#smallerpic {
-    position:absolute;
     width:65%;
     padding-left: 19%;
 }
-h1 {
-    font-family: 'face your fears';
-urlhttps://drive.google.com/file/d/0B9y-4eCD0vHnYXQzTVFHdWE3cms/view?usp=sharing;
-    color: #B40A12;
-    position:absolute;
-    top:1300px;
-    padding-left: 10%;
-   width:100%
-}
 img#footer {
     width:100%;
-    
 }
-
 
 
