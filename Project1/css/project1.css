@@ -9,15 +9,16 @@ img#motiongraphic {
 }
 h2 {
     font-family: 'Noto Sans', sans-serif;
-    font-size:18px;
-    padding-left: 30%;
+    letter-spacing: .1em;
+    font-size:20px;
+    padding-left: 27%;
     padding-right:20%;
 }
 
 p {
     font-family: 'Noto Sans', sans-serif;
+    letter-spacing: .1em;
     font-size: 16px;
-    font-kerning: normal;
     width:50%;
     text-align: justify;
     padding-left: 25%;
