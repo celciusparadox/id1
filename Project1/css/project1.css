@@ -7,6 +7,10 @@ body {
 img#motiongraphic {
     width:100%;
 }
+img#mashedlogo {
+    width:15%;
+    padding-left:42%
+}
 h2 {
     font-family: 'Noto Sans', sans-serif;
     letter-spacing: .1em;
