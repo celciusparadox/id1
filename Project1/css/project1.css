@@ -4,14 +4,11 @@ body {
     margin: 0;
     width:100%;
 }
-img {
-    width:100%;
-}
-h1 {
+h2 {
     font-family: 'Noto Sans', sans-serif;
-    font-size:20px;
-    padding-left: 10%;
-    padding-right: 10%;
+    font-size:18px;
+    padding-left: 30%;
+    padding-right:20%;
     
 }
 
@@ -27,8 +24,17 @@ img#firstpic {
     padding-left:17%;
 }
 img#smallerpic {
+    position:relative;
     width:65%;
     padding-left: 19%;
+}
+h1 {
+    position:absolute;
+    top:1300px;
+   padding-left: 10%;
+  width:100%
+        
+    
 }
 img#footer {
     width:100%;
