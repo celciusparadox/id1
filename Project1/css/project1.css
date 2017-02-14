@@ -1,8 +1,8 @@
 body {
-    background-color: black;
-    color: white;
-    margin: 0;
     width:100%;
+    margin:0;
+    background-color:black;
+    color:white;
 }
 img#motiongraphic {
     width:100%;
@@ -10,39 +10,41 @@ img#motiongraphic {
 img#touchhere {
     width:50%;
     padding-left:25%;
-    padding-top: 2.5%;
+    padding-top:2.5%;
 }
 h1 {
     font-family: 'Noto Sans', sans-serif;
-    letter-spacing: .1em;
     font-size:20px;
-    text-align: center;
+    letter-spacing: .1em;
+    text-align:center;
 }
 p {
-    font-family: 'Noto Sans', sans-serif;
-    letter-spacing: .1em;
-    font-size: 16px;
     width:50%;
-    text-align: center;
-    padding-left: 25%;
+    padding-left:25%;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:16px;
+    letter-spacing: .1em;
+    text-align:center;
 }
 img#firstpic {
-    width: 65%;
+    width:65%;
     padding-left:17%;
+    padding-top:3%;
 }
 img#mashedlogo {
     width:20%;
-    padding-left: 40%;
-    padding-top: 2.5%;
+    padding-left:40%;
+    padding-top:2.5%;
 }
 img#smallerpic {
     width:65%;
-    padding-left: 17%;
+    padding-left:17%;
+    padding-top:3%;
 }
 img#onelasttune {
     width:50%;
     padding-left:25%;
-    padding-top: 2.5%;
+    padding-top:2.5%;
 }
 
 
