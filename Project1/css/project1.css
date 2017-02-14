@@ -17,6 +17,8 @@ h1 {
     font-size:20px;
     letter-spacing: .1em;
     text-align:center;
+    padding-left: 30%;
+    padding-right: 30%;
 }
 p {
     width:50%;
@@ -24,7 +26,7 @@ p {
     font-family: 'Noto Sans', sans-serif;
     font-size:16px;
     letter-spacing: .1em;
-    text-align:center;
+    text-align:left;
 }
 img#firstpic {
     width:65%;
@@ -46,5 +48,6 @@ img#onelasttune {
     padding-left:24%;
     padding-top:2.5%;
 }
+
 
 
