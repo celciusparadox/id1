@@ -4,6 +4,14 @@ body {
     background-color:black;
     color:white;
 }
+h1 {
+     font-family: 'Noto Sans', sans-serif;
+    font-size:20px;
+    letter-spacing:.1em;
+    text-align:center;
+    padding-left:30%;
+    padding-right:30%;
+}
 p {
     width:50%;
     padding-left:25%;
