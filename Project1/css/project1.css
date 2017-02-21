@@ -11,11 +11,6 @@ body {
 img#motiongraphic {
     width:100%;
 }
-img#touchhere {
-    width:50%;
-    padding-left:25%;
-    padding-top:2.5%;
-}
 h1 {
     font-family: 'Noto Sans', sans-serif;
     font-size:20px;
