@@ -1,0 +1,15 @@
+body {
+    width:100%;
+    margin:0%;
+    background-color:whitesmoke;
+}
+img#lilKidshadow {
+    width:100%;
+    padding-left:0%;
+    padding-right:0%;
+}
+img#mesmiling {
+    width:20%;
+    padding-left: 40%;
+    padding-right: 40%;
+}
