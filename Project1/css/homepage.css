@@ -16,11 +16,12 @@ img#mesmiling {
 }
 /*mobile layout*/
 @media only screen and (max-width:500px) {
+    
     body {width: 80%;
     padding: 2% 2%;
-    }
+}
     
     img {
         80%;
-    }
+}
 }
