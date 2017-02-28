@@ -1,6 +1,10 @@
  @font-face {
-    font-family: 'Comic Book Italic.otf';
-    src: url('../fonts/comic_book/Comic Book Italic.otf') ;
+    font-family:ComicBook;
+    src: url('../fonts/comic_book/Comic Bold Italic.otf');
+}
+@font-face {
+    font-family:ComicBook2;
+    src: url('../fonts/Comic Book.otf');
 }
 body {
     width:100%;
@@ -12,19 +16,19 @@ img#motiongraphic {
     width:100%;
 }
 h1 {
-    font-family: 'Noto Sans', sans-serif;
-    font-size:20px;
+    padding-left:25%;
+    padding-right:25%;
+    font-family: ComicBook;
+    font-size:25px;
     letter-spacing:.1em;
     text-align:center;
-    padding-left:30%;
-    padding-right:30%;
 }
 p {
     width:50%;
     padding-left:25%;
-    font-family:'Noto Sans', sans-serif;
+    font-family: ComicBook2;
     font-size:16px;
-    letter-spacing:.1em;
+    letter-spacing:.2em;
     text-align:left;
 }
 img#firstpic {
