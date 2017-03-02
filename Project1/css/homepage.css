@@ -1,27 +1,45 @@
+* {
+    margin:0;
+    padding:0;
+    border:0;
+}
 /*desktop layout*/
 body {
     width:100%;
-    margin:0%;
-    background-color:whitesmoke;
+    margin:0;
+    padding:0;
+    background-color:#e4ebd3;
 }
-img#lilKidshadow {
+img {
     width:100%;
-    padding-left:0%;
-    padding-right:0%;
 }
 img#mesmiling {
-    width:20%;
-    padding-left: 40%;
-    padding-right: 40%;
+    width:15%;
+    padding-left: 5%;
+    padding-right: 5%;
+    float: left
+}
+header {
+    margin:0;
+    padding-bottom: 0;
+    padding:0;
+}
+section {
+  
+    margin:0;
+    padding:0;
+}
+section#id1 {
+    background-color:#7f3b4a; 
 }
 /*mobile layout*/
 @media only screen and (max-width:500px) {
-    
+
     body {width: 80%;
-    padding: 2% 2%;
-}
-    
+        padding: 2% 2%;
+    }
+
     img {
         80%;
-}
+    }
 }
