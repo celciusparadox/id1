@@ -27,6 +27,18 @@ section#id1 {
    padding-left:4%;
    padding-right:4%; 
 }
+h1 {
+    color:#92a6a1; 
+    position: absolute;
+    left:25%;
+    right:25%;
+    font-family: 'Rubik Mono One', sans-serif; 
+    font-size: 5em;
+    letter-spacing: 7px;
+    text-align: center;
+    text-shadow: 6px 2px #7e3b49;
+ 
+}
 h2 {
     padding-top:3;
     
