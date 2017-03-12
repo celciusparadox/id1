@@ -4,7 +4,7 @@ body {
     width:100%;
     margin:0;
     padding:0;
-    background-color:#cccc99;
+    background-color:#92a6a1;
 }
 img {
     width:100%;
@@ -23,9 +23,9 @@ header {
 }
 
 section#id1 {
-   padding-top:2%;
-   padding-left:4%;
-   padding-right:4%; 
+    padding-top:2%;
+    padding-left:4%;
+    padding-right:4%; 
 }
 h1 {
     color:#92a6a1; 
@@ -39,9 +39,28 @@ h1 {
 }
 h2 {
     padding-top:3;
+    font-family: 'Covered By Your Grace', cursive;
+    padding-top:2%;
+    padding-left:4%;
+    padding-right:4%; 
+    color:#7e3b49;
 }
 h4 {
-    font-size: 20px
+    position: absolute;
+    padding-left: 2%;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size:1.8em;
+    letter-spacing:3px;
+    color:#7e3b49;
+}
+h5 {
+    color:#7e3b49;
+    position:absolute;
+    left: 3%;
+    padding-top:18%; 
+    font-family: 'Covered By Your Grace', cursive;
+    font-size:2em;
+    letter-spacing:2px;
 }
 p {
     padding-left:25%
