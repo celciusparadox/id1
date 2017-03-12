@@ -4,7 +4,7 @@ body {
     width:100%;
     margin:0;
     padding:0;
-    background-color:#e4ebd3;
+    background-color:#cccc99;
 }
 img {
     width:100%;
@@ -29,19 +29,16 @@ section#id1 {
 }
 h1 {
     color:#92a6a1; 
-    position: absolute;
-    left:25%;
+    position:absolute;
     right:25%;
+    left:2%;
     font-family: 'Rubik Mono One', sans-serif; 
     font-size: 5em;
-    letter-spacing: 7px;
-    text-align: center;
-    text-shadow: 6px 2px #7e3b49;
- 
+    letter-spacing: 5px;
+    text-shadow: 6px 6px #7e3b49;
 }
 h2 {
     padding-top:3;
-    
 }
 h4 {
     font-size: 20px
