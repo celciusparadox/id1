@@ -64,16 +64,16 @@ img#photoshop {
 
 
 h1 {
-    color:#92a6a1; 
+    color:#7e3b49; 
     position:absolute;
     right:25%;
     left:2%;
     font-family: 'Rubik Mono One', sans-serif; 
     font-size: 5em;
-    letter-spacing: 5px;
+   
     line-height: 100%;
     padding-top:2%; 
-    text-shadow: 6px 6px #7e3b49;
+   
 }
 h2 {
     padding-top:3;
@@ -89,11 +89,12 @@ h2 {
 h4 {
     position: absolute;
     padding-left: 2%;
+    padding-top: 15%;
     font-family: 'Covered By Your Grace', cursive;
     font-size:1.8em;
-    letter-spacing:3px;
+    letter-spacing:2px;
     color:#7e3b49;
-    text-shadow: 2px 2px #92a6a1;
+    text-shadow: 2px 2px #bae2d9;
 }
 section#id1 {
     padding-top:2%;
