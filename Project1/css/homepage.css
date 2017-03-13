@@ -16,7 +16,6 @@ img#mesmiling {
     padding-top:8%;
     float:left;
 }
-
 img#earth {
     width: 25%;
     padding-left:0%;
@@ -44,7 +43,7 @@ img#lou {
 }
 img#dc {
     width:33%;
-    padding-left:2.5;
+  
 }
 img#girl {
     width:35%;
@@ -52,10 +51,13 @@ img#girl {
     padding-top: 2.5%
         
 }
-header {
-    margin:0;
-    padding-bottom: 0;
-    padding:0;
+img#band {
+    width:70%;
+    padding-top: 2.5%;
+}
+img#photoshop {
+    width:50%;
+    padding-left: 60%
 }
 
 section#id1 {
@@ -81,7 +83,10 @@ h2 {
     padding-left:4%;
     padding-right:4%; 
     color:#7e3b49;
+     font-size: 2em;
 }
+
+
 h4 {
     position: absolute;
     padding-left: 2%;
@@ -91,46 +96,46 @@ h4 {
     color:#7e3b49;
     text-shadow: 2px 2px #92a6a1;
 }
-h5 {
-    color:#7e3b49;
-    position:absolute;
-    left: 3%;
-    padding-top:18%; 
+
+section#id2 {
+    padding-top:2%;
+    padding-left:4%;
+    padding-right:4%;
     font-family: 'Covered By Your Grace', cursive;
-    font-size:2em;
-    letter-spacing:2px;
+     color:#7e3b49;
 }
+   
 p {
-    padding-left:25%;
-    font-family: 'Montserrat', sans-serif;
+   padding-left:25%;
+   font-family: 'Montserrat', sans-serif;
+   color:#7e3b49;
+}
+     
+section#id3 {
+     padding-top:2%;
+    padding-left:4%;
+    padding-right:4%;
+    font-size: 1.5em;
+   font-family: 'Covered By Your Grace', cursive; 
     color:#7e3b49; 
 }
-section#id2 {
+section#id1 {
     padding-top:2%;
     padding-left:4%;
     padding-right:4%;
     font-family: 'Montserrat', sans-serif; color:#7e3b49; 
 }
-p {
-   padding-left:25%;
-   font-family: 'Montserrat', sans-serif;
-   color:#7e3b49;   
-}
-section#id3 {
-     padding-top:2%;
+section#4 {
+    padding-top:2%;
     padding-left:4%;
     padding-right:4%;
-    font-family: 'Montserrat', sans-serif; color:#7e3b49; 
+    font-size:2em;
+   font-family: 'Covered By Your Grace', cursive; 
+    color:#7e3b49; 
 }
-section#id4 {
-     padding-top:2%;
-    padding-left:4%;
-    padding-right:4%;
-    font-family: 'Montserrat', sans-serif; color:#7e3b49; 
-}
-section#id6 {
-    color:#7e3b49;
-}
+        
+
+
 
 /*mobile layout*/
 @media only screen and (max-width:500px) {
