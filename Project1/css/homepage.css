@@ -132,8 +132,12 @@ section#id4 {
     font-family: 'Covered By Your Grace', cursive; 
     color:#7e3b49; 
 }
-        
-
+section#id5 {
+    padding-left: 4%;
+}        
+section#id6 {
+    padding-left: 4%; 
+}
 
 
 /*mobile layout*/
