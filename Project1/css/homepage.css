@@ -1,12 +1,12 @@
 
-/*desktop layout*/
+/*desktop layout*/<
 body {
     width:100%;
     margin:0;
     padding:0;
     background-color:#92a6a1;
 }
-img {
+img#lilKidshadow {
     width:100%;
 }
 img#mesmiling {
@@ -15,6 +15,42 @@ img#mesmiling {
     padding-right:5%;
     padding-top:8%;
     float:left;
+}
+
+img#earth {
+    width: 25%;
+    padding-left:0%;
+    padding-top: 2.5%;
+    
+}
+img#magic {
+    width: 38%;
+    padding-left:0%;
+    padding-top: 2.5%;
+    padding-left: 3%;
+    }
+img#janellemonet {
+    width: 37%;
+    padding-left: 60%;
+    padding-top: 2.5%
+}
+img#panda {
+    width: 45%;
+    padding-top: 2.5%;
+}
+img#lou {
+   width:50%;
+    padding-left: 3%;
+}
+img#dc {
+    width:33%;
+    padding-left:2.5;
+}
+img#girl {
+    width:35%;
+    padding-left: 3%;
+    padding-top: 2.5%
+        
 }
 header {
     margin:0;
@@ -26,8 +62,7 @@ section#id1 {
     padding-top:2%;
     padding-left:4%;
     padding-right:4%;
-    font-family: 'Montserrat', sans-serif;    
-    color:#7e3b49; 
+    font-family: 'Montserrat', sans-serif; color:#7e3b49; 
 }
 h1 {
     color:#92a6a1; 
@@ -66,13 +101,35 @@ h5 {
     letter-spacing:2px;
 }
 p {
-    padding-left:25%
-    font-family: 'Montserrat', sans-serif;    
+    padding-left:25%;
+    font-family: 'Montserrat', sans-serif;
+    color:#7e3b49; 
 }
 section#id2 {
-   padding-top:2%;
-   padding-left:4%;
-   padding-right:4%; 
+    padding-top:2%;
+    padding-left:4%;
+    padding-right:4%;
+    font-family: 'Montserrat', sans-serif; color:#7e3b49; 
+}
+p {
+   padding-left:25%;
+   font-family: 'Montserrat', sans-serif;
+   color:#7e3b49;   
+}
+section#id3 {
+     padding-top:2%;
+    padding-left:4%;
+    padding-right:4%;
+    font-family: 'Montserrat', sans-serif; color:#7e3b49; 
+}
+section#id4 {
+     padding-top:2%;
+    padding-left:4%;
+    padding-right:4%;
+    font-family: 'Montserrat', sans-serif; color:#7e3b49; 
+}
+section#id6 {
+    color:#7e3b49;
 }
 
 /*mobile layout*/
