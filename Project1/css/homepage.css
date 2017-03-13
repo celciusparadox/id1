@@ -13,7 +13,7 @@ img#mesmiling {
     width:15%;
     padding-left:5%;
     padding-right:5%;
-    padding-top:8%;
+    padding-top:4.6%;
     float:left;
 }
 img#earth {
@@ -54,7 +54,7 @@ img#girl {
 img#band {
     width:70%;
     padding-top: 2.5%;
-    padding-left: 3%;
+    padding-left: .5%;
 }
 img#photoshop {
     width:50%;
@@ -94,7 +94,7 @@ h4 {
     font-size:1.8em;
     letter-spacing:2px;
     color:#7e3b49;
-    text-shadow: 2px 2px #bae2d9;
+   
 }
 section#id1 {
     padding-top:2%;
