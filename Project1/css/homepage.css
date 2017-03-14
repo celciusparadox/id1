@@ -20,7 +20,7 @@ img#mesmiling {
 img#earth {
     width: 25%;
     margin-left:0%;
-  margin-top: 2.5%;
+  margin-top: 1%;
 }
 img#magic {
     width: 38%;
@@ -47,11 +47,11 @@ img#dc {
 img#girl {
     width:35%;
     margin-left: 3%;
-    margin-top: 2.5%
+    margin-top: 2.5%;
 }
 img#band {
     width:70%;
-   margin-top: 2.5%;
+   margin-top:1%;
     margin-left: .5%;
 }
 img#photoshop {
@@ -68,14 +68,13 @@ h1 {
     font-family: 'Rubik Mono One', sans-serif; 
     font-size: 5em;
     line-height: 100%;
-     
+    text-shadow: 6px 6px #374d64;
 }
 h2 {
-    padding-top:3;
+     margin-top:3%;
     font-family: 'Covered By Your Grace', cursive;
-    padding-top:2%;
-    padding-left:4%;
-    padding-right:4%; 
+    margin-left:4%;
+    margin-right:4%; 
     color:#7e3b49;
     font-size: 2em;
 }
@@ -87,6 +86,7 @@ h4 {
     font-size:1.8em;
     letter-spacing:2px;
     color:#7e3b49;
+    
 }
 section#id1 {
     margin-top:2%;
@@ -95,9 +95,9 @@ section#id1 {
     font-family: 'Montserrat', sans-serif; color:#7e3b49; 
 }
 section#id2 {
-    padding-top:5%;
-    padding-left:4%;
-    padding-right:4%;
+    margin-top:5%;
+   margin-left:4%;
+     margin-right:4%;
     font-family: 'Montserrat', sans-serif; color:#7e3b49; 
 }
 p {
@@ -106,16 +106,16 @@ p {
     color:#7e3b49;
 }
 section#id3 {
-    padding-left:4%;
-    padding-right:4%;
+     margin-left:4%;
+    margin-right:4%;
     font-size: 1.5em;
     font-family: 'Covered By Your Grace', cursive; 
     color:#7e3b49; 
 }
 section#id4 {
-    padding-top:2%;
-    padding-left:4%;
-    padding-right:4%;
+  margin-top:10%;
+     margin-left:4%;
+     margin-right:4%;
     font-size:1em;
     font-family: 'Covered By Your Grace', cursive; 
     color:#7e3b49; 
@@ -141,7 +141,7 @@ article#earth p:hover {
 
 
 /*mobile layout*/
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:300px) {
 
     body {
         width:100%;
@@ -160,12 +160,10 @@ article#earth p:hover {
         margin-left:2%;
         font-family: 'Rubik Mono One', sans-serif;
         font-size:1em;
+        text-shadow: 2px 2px #374d64;
     }
     h4 {
-       margin-right:35%;
-       margin-left:2%;
-       margin-top:7%;
-       font-size:1.3em; 
+       display:none;
     }
     h2 {
        font-size:1.2em; 
