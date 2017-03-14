@@ -56,8 +56,8 @@ img#band {
 }
 img#photoshop {
     width:50%;
-    padding-left: 51%;
-    padding-top: 2%; 
+    margin-left: 51%;
+    margin-top: 2%; 
 }
 h1 {
     color:#7e3b49; 
@@ -164,8 +164,8 @@ article#earth p:hover {
     h4 {
        margin-right:35%;
        margin-left:2%;
-       margin-top:20%;
-       font-size:.9em; 
+       margin-top:7%;
+       font-size:1.3em; 
     }
     h2 {
        font-size:1.2em; 
