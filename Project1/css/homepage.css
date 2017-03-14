@@ -23,9 +23,9 @@ img#earth {
 }
 img#magic {
     width: 38%;
-    padding-left:0%;
-    padding-top: 2.5%;
-    padding-left: 3%;
+    margin-left:0%;
+    margin-top: 2.5%;
+    margin-left: 3%;
     }
 img#janellemonet {
     width: 37%;
@@ -88,9 +88,9 @@ h4 {
     color:#7e3b49;
 }
 section#id1 {
-    padding-top:2%;
-    padding-left:4%;
-    padding-right:4%;
+    margin-top:2%;
+    margin-left:4%;
+    margin-right:4%;
     font-family: 'Montserrat', sans-serif; color:#7e3b49; 
 }
 section#id2 {
@@ -100,7 +100,7 @@ section#id2 {
     font-family: 'Montserrat', sans-serif; color:#7e3b49; 
 }
 p {
-    padding-left:25%;
+    margin-left:25%;
     font-family: 'Montserrat', sans-serif;
     color:#7e3b49;
 }
@@ -120,10 +120,22 @@ section#id4 {
     color:#7e3b49; 
 }
 section#id5 {
-    padding-left: 4%;
+    padding-left:4%;
 }        
 section#id6 {
-    padding-left: 4%; 
+    padding-left:4%; 
+}
+article {
+    display: inline;
+}
+article#earth p { 
+     padding-left: 0;
+    position:absolute;
+    display:none;
+}
+
+article#earth p:hover { 
+    display:inline;
 }
 
 
@@ -131,14 +143,14 @@ section#id6 {
 @media only screen and (max-width:500px) {
 
     body {
-        width: 100%;
+        width:100%;
         
     }
     img#lilKidshadow {
-        width: 100%;
+        width:100%;
     }
     img#mesmiling {
-       display: none;
+       display:none;
     }
     h1 {
         color:#7e3b49; 
@@ -146,12 +158,20 @@ section#id6 {
         margin-right:25%;
         margin-left:2%;
         font-family: 'Rubik Mono One', sans-serif;
-        font-size: 1em;
+        font-size:1em;
     }
     h4 {
-       margin-right:25%;
+       margin-right:35%;
        margin-left:2%;
-        margin-top: 13%;
-       font-size: .9em; 
+       margin-top:13%;
+       font-size:.9em; 
+    }
+    h2 {
+       font-size:1em; 
+    }
+    p {
+       font-size:1em;
+        margin-left: 1%;
+        margin-right: 1%;
     }
 }
