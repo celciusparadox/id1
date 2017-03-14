@@ -141,7 +141,7 @@ article#earth p:hover {
 
 
 /*mobile layout*/
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:100px) {
 
     body {
         width:100%;
