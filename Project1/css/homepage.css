@@ -11,16 +11,15 @@ img#lilKidshadow {
 }
 img#mesmiling {
     width:15%;
-    padding-left:5%;
-    padding-right:5%;
-    padding-top:4.6%;
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:4.6%;
     float:left;
 }
 img#earth {
     width: 25%;
-    padding-left:0%;
-    padding-top: 2.5%;
-    
+    margin-left:0%;
+  margin-top: 2.5%;
 }
 img#magic {
     width: 38%;
@@ -30,7 +29,7 @@ img#magic {
     }
 img#janellemonet {
     width: 37%;
-    padding-left: 60%;
+    margin-left: 60%;
     padding-top: 2.5%
 }
 img#panda {
@@ -43,13 +42,11 @@ img#lou {
 }
 img#dc {
     width:33%;
-  
 }
 img#girl {
     width:35%;
     padding-left: 3%;
     padding-top: 2.5%
-        
 }
 img#band {
     width:70%;
@@ -61,19 +58,16 @@ img#photoshop {
     padding-left: 51%;
     padding-top: 2%; 
 }
-
-
 h1 {
     color:#7e3b49; 
     position:absolute;
-    right:25%;
-    left:2%;
+    margin-right:25%;
+    margin-left:2%;
+    margin-top:2%;
     font-family: 'Rubik Mono One', sans-serif; 
     font-size: 5em;
-   
     line-height: 100%;
-    padding-top:2%; 
-   
+     
 }
 h2 {
     padding-top:3;
@@ -82,19 +76,16 @@ h2 {
     padding-left:4%;
     padding-right:4%; 
     color:#7e3b49;
-     font-size: 2em;
+    font-size: 2em;
 }
-
-
 h4 {
     position: absolute;
-    padding-left: 2%;
-    padding-top: 15%;
+    margin-left: 3%;
+    margin-top: 15%;
     font-family: 'Covered By Your Grace', cursive;
     font-size:1.8em;
     letter-spacing:2px;
     color:#7e3b49;
-   
 }
 section#id1 {
     padding-top:2%;
@@ -102,28 +93,24 @@ section#id1 {
     padding-right:4%;
     font-family: 'Montserrat', sans-serif; color:#7e3b49; 
 }
-
 section#id2 {
     padding-top:5%;
     padding-left:4%;
     padding-right:4%;
     font-family: 'Montserrat', sans-serif; color:#7e3b49; 
 }
-   
 p {
-   padding-left:25%;
-   font-family: 'Montserrat', sans-serif;
-   color:#7e3b49;
+    padding-left:25%;
+    font-family: 'Montserrat', sans-serif;
+    color:#7e3b49;
 }
-     
 section#id3 {
-     padding-left:4%;
+    padding-left:4%;
     padding-right:4%;
     font-size: 1.5em;
-   font-family: 'Covered By Your Grace', cursive; 
+    font-family: 'Covered By Your Grace', cursive; 
     color:#7e3b49; 
 }
-
 section#id4 {
     padding-top:2%;
     padding-left:4%;
@@ -143,11 +130,28 @@ section#id6 {
 /*mobile layout*/
 @media only screen and (max-width:500px) {
 
-    body {width: 80%;
-        padding: 2% 2%;
+    body {
+        width: 100%;
+        
     }
-
-    img {
-        80%;
+    img#lilKidshadow {
+        width: 100%;
+    }
+    img#mesmiling {
+       display: none;
+    }
+    h1 {
+        color:#7e3b49; 
+        position:absolute;
+        margin-right:25%;
+        margin-left:2%;
+        font-family: 'Rubik Mono One', sans-serif;
+        font-size: 1em;
+    }
+    h4 {
+       margin-right:25%;
+       margin-left:2%;
+        margin-top: 13%;
+       font-size: .9em; 
     }
 }
