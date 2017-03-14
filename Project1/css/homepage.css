@@ -30,28 +30,28 @@ img#magic {
 img#janellemonet {
     width: 37%;
     margin-left: 60%;
-    padding-top: 2.5%
+    margin-top: 2.5%
 }
 img#panda {
     width: 45%;
-    padding-top: 2.5%;
+    margin-top: 2.5%;
 }
 img#lou {
    width:50%;
-    padding-left: 3%;
+   margin-left: 3%;
 }
 img#dc {
     width:33%;
 }
 img#girl {
     width:35%;
-    padding-left: 3%;
-    padding-top: 2.5%
+    margin-left: 3%;
+    margin-top: 2.5%
 }
 img#band {
     width:70%;
-    padding-top: 2.5%;
-    padding-left: .5%;
+   margin-top: 2.5%;
+    margin-left: .5%;
 }
 img#photoshop {
     width:50%;
