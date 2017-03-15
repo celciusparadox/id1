@@ -1,4 +1,3 @@
-
 /*desktop layout*/
 body {
     width:100%;
@@ -17,8 +16,8 @@ img#mesmiling {
     margin-top:4.6%;
     float:left;
     position:relative;
+   
 }
-
 img#photoshop {
     width:50%;
     margin-left:51%;
@@ -48,40 +47,29 @@ img#gh {
     width:15%;
     margin-left:25%;
 }
-/* ------------------------------------------------------------ NEW CODE ------------------------------------------------------------ */
-
-
 /* ---- Setting up all the articles -----*/
-
 article#earth, article#magic, article#janelle, article#pandabear, article#lou, article#dc, article#girl, article#band,
 article#pdoc{
     display: inline;
     position: relative;
 }
-
-
 /* ---- Setting all the widths + positions for the images -----*/
-
 article#earth img {
     width: 25%;
 }
-
 article#magic img {
     width: 38%;
     margin-left: 3%;
 }
-
 article#janelle img {
     width: 37%;
     margin-left: 60%;
     margin-top: 2.5%;
 }
-
 article#pandabear img {
     width: 45%;
     margin-top: 2.5%;
 }
-
 article#lou img {
     width:50%;
     margin-left: 3%;
@@ -104,9 +92,7 @@ article#pdoc img {
     margin-left:51%;
     margin-top:2%; 
 }
-
 /* ---- Positioning all the texts -----*/
-
 article h1 {
     position:absolute;
     margin: 0;
@@ -114,35 +100,29 @@ article h1 {
     text-align: right;
     visibility: hidden;
 }
-
 article#earth h1, article#magic h1, article#lou h1,
 article#band h1,
-article#pdoc {
+article#pdoc h1 {
     display: inline;
     bottom: 0;
     right: 0;
 }
-
 article#earth h1 {
     width: 80%;
     left: 0;
     text-align: left;
 }
-
 article#magic h1 {
     width: 80%;
 }
-
 article#janelle h1 {
     bottom: 0;
     right: 0;
 }
-
 article#pandabear h1 {
     bottom: 0;
     text-align:left;
 }
-
 article#lou h1 {
     width: 80%;
 }
@@ -165,16 +145,9 @@ article#pdoc h1 {
    bottom:0%;
     
 }
-
 article:hover h1 {
     visibility:visible;
 }
-
-
-/* ------------------------------------------------------------ END OF NEW CODE ------------------------------------------------------------ */
-
-
-
 h1 {
     color:#7e3b49; 
     position:absolute;
@@ -185,7 +158,6 @@ h1 {
     font-size: 5em;
     line-height: 100%;
     text-shadow: 6px 6px #374d64;
-
 }
 h2 {
     margin-top:3%;
@@ -194,6 +166,9 @@ h2 {
     margin-right:4%; 
     color:#7e3b49;
     font-size: 2em;
+}
+h3 {
+    margin-left:4%;
 }
 h4 {
     position:absolute;
@@ -205,8 +180,6 @@ h4 {
     color:#7e3b49;
 
 }
-
-
 section#id1 {
     margin-top:2%;
     margin-left:4%;
@@ -219,15 +192,10 @@ section#id2 {
     margin-right:4%;
     font-family: 'Montserrat', sans-serif; color:#7e3b49; 
 }
-p {
-    margin-left:25%;
-    font-family: 'Montserrat', sans-serif;
-    color:#7e3b49;
-}
 section#id3 {
     margin-left:4%;
     margin-right:4%;
-    font-size: 1.5em;
+    font-size: 2em;
     font-family: 'Covered By Your Grace', cursive; 
     color:#7e3b49; 
 }
@@ -235,7 +203,7 @@ section#id4 {
     margin-top:7%;
     margin-left:4%;
     margin-right:4%;
-    font-size:1.5em;
+    font-size:2em;
     font-family: 'Covered By Your Grace', cursive; 
     color:#7e3b49; 
 }
@@ -247,6 +215,11 @@ section#id6 {
     margin-left:4%;
     margin-right: 4%;
 }
+p {
+    margin-left:25%;
+    font-family: 'Montserrat', sans-serif;
+    color:#7e3b49;
+}
 footer {
     margin-left:4%;
     margin-right: 4%;
@@ -254,18 +227,13 @@ footer {
     margin-bottom: 10%;
 
 } 
-
-
-
 /*mobile layout*/
 @media only screen and (max-width:500px) {
-
-    body {
+body {
         width:100%;
         margin:0;
         padding:0;
         background-color:#f9f7d1;
-
     }
     img#lilKidshadow {
         width:100%;
@@ -287,6 +255,19 @@ footer {
     }
     h2 {
         font-size:1.2em; 
+    }
+    h3 {
+       font-size:.7em; 
+    }
+    article h1 {
+        font-size:.5em;
+    }
+    article#dc h1 {
+        left:30%;
+    }
+    article#lou h1 {
+        right:5%;
+        bottom: 5%;
     }
     p {
         font-size:.5em;
