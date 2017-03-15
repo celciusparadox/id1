@@ -18,12 +18,43 @@ img#mesmiling {
     float:left;
     position:relative;
 }
+
+img#photoshop {
+    width:50%;
+    margin-left:51%;
+    margin-top:2%; 
+}
+img#fb {
+    width:5%;
+    margin-left:2%;
+}
+img#ig {
+    width:5%;
+    margin-left:2%;
+}
+img#yt {
+    width:5%;
+    margin-left:2%;
+}
+img#twit {
+    width:5%;
+    margin-left:2%;
+}
+img#li {
+    width:5%;
+    margin-left:2%;
+}
+img#gh {
+    width:15%;
+    margin-left:25%;
+}
 /* ------------------------------------------------------------ NEW CODE ------------------------------------------------------------ */
 
 
 /* ---- Setting up all the articles -----*/
 
-article#earth, article#magic, article#janelle, article#pandabear, article#lou, article#dc, article#girl {
+article#earth, article#magic, article#janelle, article#pandabear, article#lou, article#dc, article#girl, article#band,
+article#pdoc{
     display: inline;
     position: relative;
 }
@@ -63,6 +94,16 @@ article#girl img {
     margin-left: 3%;
     margin-top: 2.5%;
 }
+article#band img {
+    width:73%;
+    margin-top:1%;
+    margin-left:.5%;
+}
+article#pdoc img {
+    width:50%;
+    margin-left:51%;
+    margin-top:2%; 
+}
 
 /* ---- Positioning all the texts -----*/
 
@@ -74,7 +115,9 @@ article h1 {
     visibility: hidden;
 }
 
-article#earth h1, article#magic h1, article#lou h1 {
+article#earth h1, article#magic h1, article#lou h1,
+article#band h1,
+article#pdoc {
     display: inline;
     bottom: 0;
     right: 0;
@@ -97,7 +140,7 @@ article#janelle h1 {
 
 article#pandabear h1 {
     bottom: 0;
-    text-align: left;
+    text-align:left;
 }
 
 article#lou h1 {
@@ -112,6 +155,16 @@ article#girl h1 {
     bottom:.5%;
     
 }
+article#band h1 {
+    width:88%;
+    left:5%;
+    bottom:.5%;
+}
+article#pdoc h1 {
+    right:39%;
+   bottom:0%;
+    
+}
 
 article:hover h1 {
     visibility:visible;
@@ -121,16 +174,7 @@ article:hover h1 {
 /* ------------------------------------------------------------ END OF NEW CODE ------------------------------------------------------------ */
 
 
-img#band {
-    width:70%;
-    margin-top:1%;
-    margin-left: .5%;
-}
-img#photoshop {
-    width:50%;
-    margin-left: 51%;
-    margin-top: 2%; 
-}
+
 h1 {
     color:#7e3b49; 
     position:absolute;
@@ -152,9 +196,9 @@ h2 {
     font-size: 2em;
 }
 h4 {
-    position: absolute;
-    margin-left: 3%;
-    margin-top: 15%;
+    position:absolute;
+    margin-left:3%;
+    margin-top:15%;
     font-family: 'Covered By Your Grace', cursive;
     font-size:1.8em;
     letter-spacing:2px;
@@ -188,10 +232,10 @@ section#id3 {
     color:#7e3b49; 
 }
 section#id4 {
-    margin-top:10%;
+    margin-top:7%;
     margin-left:4%;
     margin-right:4%;
-    font-size:1em;
+    font-size:1.5em;
     font-family: 'Covered By Your Grace', cursive; 
     color:#7e3b49; 
 }
@@ -206,22 +250,11 @@ section#id6 {
 footer {
     margin-left:4%;
     margin-right: 4%;
-    margin-top: 10%;
+    margin-top: 20%;
     margin-bottom: 10%;
 
 } 
-article {
-    display: inline;
-}
-article#earth p { 
-    padding-left: 0;
-    position:absolute;
-    display:none;
-}
 
-article#earth p:hover { 
-    display:inline;
-}
 
 
 /*mobile layout*/
