@@ -16,14 +16,14 @@ img#mesmiling {
     margin-right:5%;
     margin-top:4.6%;
     float:left;
-    position: absolute;
+    position:relative;
 }
 /* ------------------------------------------------------------ NEW CODE ------------------------------------------------------------ */
 
 
 /* ---- Setting up all the articles -----*/
 
-article#earth, article#magic, article#janelle, article#pandabear, article#lou {
+article#earth, article#magic, article#janelle, article#pandabear, article#lou, article#dc, article#girl {
     display: inline;
     position: relative;
 }
@@ -54,6 +54,14 @@ article#pandabear img {
 article#lou img {
     width:50%;
     margin-left: 3%;
+}
+article#dc img {
+     width:33%;
+}
+article#girl img {
+    width:35%;
+    margin-left: 3%;
+    margin-top: 2.5%;
 }
 
 /* ---- Positioning all the texts -----*/
@@ -95,6 +103,15 @@ article#pandabear h1 {
 article#lou h1 {
     width: 80%;
 }
+article#dc h1 {
+    bottom: 0;
+}
+article#girl h1 {
+    width:88%;
+    right:0;
+    bottom:.5%;
+    
+}
 
 article:hover h1 {
     visibility:visible;
@@ -103,14 +120,7 @@ article:hover h1 {
 
 /* ------------------------------------------------------------ END OF NEW CODE ------------------------------------------------------------ */
 
-img#dc {
-    width:33%;
-}
-img#girl {
-    width:35%;
-    margin-left: 3%;
-    margin-top: 2.5%;
-}
+
 img#band {
     width:70%;
     margin-top:1%;
