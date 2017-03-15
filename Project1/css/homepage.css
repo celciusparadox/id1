@@ -224,6 +224,53 @@ footer {
 
 } 
 /*mobile layout*/
+@media only screen and (max-width:500px) {
+body {
+        width:100%;
+        margin:0;
+        padding:0;
+        background-color:#f9f7d1;
+    }
+    img#lilKidshadow {
+        width:100%;
+    }
+    img#mesmiling {
+        display:none;
+    }
+    h1 {
+        color:#7e3b49; 
+        position:absolute;
+        margin-right:25%;
+        margin-left:2%;
+        font-family: 'Rubik Mono One', sans-serif;
+        font-size:1em;
+        text-shadow: 2px 2px #374d64;
+    }
+    h4 {
+        display:none;
+    }
+    h2 {
+        font-size:1.2em; 
+    }
+    h3 {
+       font-size:.7em; 
+    }
+    article h1 {
+        font-size:.5em;
+    }
+    article#dc h1 {
+        left:30%;
+    }
+    article#lou h1 {
+        right:5%;
+        bottom: 5%;
+    }
+    p {
+        font-size:.5em;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
 @media only screen and (max-width:380px) {
 body {
         width:100%;
@@ -243,7 +290,7 @@ body {
         margin-right:25%;
         margin-left:2%;
         font-family: 'Rubik Mono One', sans-serif;
-        font-size:2em;
+        font-size:1em;
         text-shadow: 2px 2px #374d64;
     }
     h4 {
