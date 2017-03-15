@@ -1,12 +1,12 @@
 
 /*desktop layout*/
 body {
-       width:100%;
-       margin:0;
-       padding:0;
-       background-color:#f9f7d1;
-        
-    }
+    width:100%;
+    margin:0;
+    padding:0;
+    background-color:#ededed;
+
+}
 img#lilKidshadow {
     width:100%;
 }
@@ -16,32 +16,93 @@ img#mesmiling {
     margin-right:5%;
     margin-top:4.6%;
     float:left;
-    position: inherit;
+    position: absolute;
 }
-img#earth {
+/* ------------------------------------------------------------ NEW CODE ------------------------------------------------------------ */
+
+
+/* ---- Setting up all the articles -----*/
+
+article#earth, article#magic, article#janelle, article#pandabear, article#lou {
+    display: inline;
+    position: relative;
+}
+
+
+/* ---- Setting all the widths + positions for the images -----*/
+
+article#earth img {
     width: 25%;
-    margin-left:0%;
-  margin-top: 1%;
 }
-img#magic {
+
+article#magic img {
     width: 38%;
-    margin-left:0%;
-    margin-top: 2.5%;
     margin-left: 3%;
-    }
-img#janellemonet {
+}
+
+article#janelle img {
     width: 37%;
     margin-left: 60%;
-    margin-top: 2.5%
+    margin-top: 2.5%;
 }
-img#panda {
+
+article#pandabear img {
     width: 45%;
     margin-top: 2.5%;
 }
-img#lou {
-   width:50%;
-   margin-left: 3%;
+
+article#lou img {
+    width:50%;
+    margin-left: 3%;
 }
+
+/* ---- Positioning all the texts -----*/
+
+article h1 {
+    position:absolute;
+    margin: 0;
+    font-size:2em;
+    text-align: right;
+    visibility: hidden;
+}
+
+article#earth h1, article#magic h1, article#lou h1 {
+    display: inline;
+    bottom: 0;
+    right: 0;
+}
+
+article#earth h1 {
+    width: 80%;
+    left: 0;
+    text-align: left;
+}
+
+article#magic h1 {
+    width: 80%;
+}
+
+article#janelle h1 {
+    bottom: 0;
+    right: 0;
+}
+
+article#pandabear h1 {
+    bottom: 0;
+    text-align: left;
+}
+
+article#lou h1 {
+    width: 80%;
+}
+
+article:hover h1 {
+    visibility:visible;
+}
+
+
+/* ------------------------------------------------------------ END OF NEW CODE ------------------------------------------------------------ */
+
 img#dc {
     width:33%;
 }
@@ -52,7 +113,7 @@ img#girl {
 }
 img#band {
     width:70%;
-   margin-top:1%;
+    margin-top:1%;
     margin-left: .5%;
 }
 img#photoshop {
@@ -70,10 +131,10 @@ h1 {
     font-size: 5em;
     line-height: 100%;
     text-shadow: 6px 6px #374d64;
-  
+
 }
 h2 {
-     margin-top:3%;
+    margin-top:3%;
     font-family: 'Covered By Your Grace', cursive;
     margin-left:4%;
     margin-right:4%; 
@@ -88,10 +149,10 @@ h4 {
     font-size:1.8em;
     letter-spacing:2px;
     color:#7e3b49;
-    
+
 }
 
- 
+
 section#id1 {
     margin-top:2%;
     margin-left:4%;
@@ -100,8 +161,8 @@ section#id1 {
 }
 section#id2 {
     margin-top:5%;
-   margin-left:4%;
-     margin-right:4%;
+    margin-left:4%;
+    margin-right:4%;
     font-family: 'Montserrat', sans-serif; color:#7e3b49; 
 }
 p {
@@ -110,31 +171,40 @@ p {
     color:#7e3b49;
 }
 section#id3 {
-     margin-left:4%;
+    margin-left:4%;
     margin-right:4%;
     font-size: 1.5em;
     font-family: 'Covered By Your Grace', cursive; 
     color:#7e3b49; 
 }
 section#id4 {
-  margin-top:10%;
-     margin-left:4%;
-     margin-right:4%;
+    margin-top:10%;
+    margin-left:4%;
+    margin-right:4%;
     font-size:1em;
     font-family: 'Covered By Your Grace', cursive; 
     color:#7e3b49; 
 }
 section#id5 {
     margin-left:4%;
+    margin-right: 4%;
 }        
 section#id6 {
-    margin-left:4%; 
+    margin-left:4%;
+    margin-right: 4%;
 }
+footer {
+    margin-left:4%;
+    margin-right: 4%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+} 
 article {
     display: inline;
 }
 article#earth p { 
-     padding-left: 0;
+    padding-left: 0;
     position:absolute;
     display:none;
 }
@@ -148,17 +218,17 @@ article#earth p:hover {
 @media only screen and (max-width:500px) {
 
     body {
-       width:100%;
-       margin:0;
-       padding:0;
-       background-color:#f9f7d1;
-        
+        width:100%;
+        margin:0;
+        padding:0;
+        background-color:#f9f7d1;
+
     }
     img#lilKidshadow {
         width:100%;
     }
     img#mesmiling {
-       display:none;
+        display:none;
     }
     h1 {
         color:#7e3b49; 
@@ -170,13 +240,13 @@ article#earth p:hover {
         text-shadow: 2px 2px #374d64;
     }
     h4 {
-       display:none;
+        display:none;
     }
     h2 {
-       font-size:1.2em; 
+        font-size:1.2em; 
     }
     p {
-       font-size:1em;
+        font-size:.5em;
         margin-left: 2%;
         margin-right: 2%;
     }
