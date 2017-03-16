@@ -292,7 +292,7 @@ body {
         margin-right:25%;
         margin-left:2%;
         font-family: 'Rubik Mono One', sans-serif;
-        font-size:1em;
+        font-size:2em;
         text-shadow: 2px 2px #374d64;
     }
     h4 {
@@ -305,7 +305,7 @@ body {
        font-size:.7em; 
     }
     article h1 {
-        font-size:.5em;
+        font-size:2em;
     }
     article#dc h1 {
         left:30%;
