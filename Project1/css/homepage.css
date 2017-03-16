@@ -226,7 +226,8 @@ footer {
 /*mobile layout*/
 
 
-@media only screen and (max-width:380px) {
+
+@media only screen and (max-width:500px) {
 body {
         width:100%;
         margin:0;
@@ -245,7 +246,7 @@ body {
         margin-right:25%;
         margin-left:2%;
         font-family: 'Rubik Mono One', sans-serif;
-        font-size:1em;
+        font-size:.5em;
         text-shadow: 2px 2px #374d64;
     }
     h4 {
@@ -273,7 +274,7 @@ body {
         margin-right: 2%;
     }
 }
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:380px) {
 body {
         width:100%;
         margin:0;
