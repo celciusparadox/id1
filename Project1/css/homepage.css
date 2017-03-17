@@ -223,7 +223,7 @@ footer {
     margin-bottom: 10%;
 } 
 /*mobile layout*/
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:500px) {
 body {
         width:100%;
         margin:0;
