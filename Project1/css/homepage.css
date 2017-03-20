@@ -245,14 +245,15 @@ body {
         font-size:2em;
         text-shadow: 2px 2px #374d64;
     }
-    h4 {
-        display:none;
-    }
     h2 {
-        font-size:1.2em; 
+        font-size:1.3em;
+        line-height:1.1;
     }
     h3 {
        font-size:.7em; 
+    }
+    h4 {
+        display:none;
     }
     article h1 {
         font-size:.5em;
