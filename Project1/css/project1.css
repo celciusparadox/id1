@@ -14,6 +14,7 @@ img#motiongraphic {
 h1 {
     padding-left:25%;
     padding-right:25%;
+    padding-top:8%;
     font-family:ComicBook;
     font-size:25px;
     letter-spacing:.1em;
@@ -30,17 +31,18 @@ p {
 img#firstpic {
     width:65%;
     padding-left:17%;
-    padding-top:3%;
+    padding-top:10%;
 }
 img#mashedlogo {
-    width:20%;
-    padding-left:40%;
+    width:15%;
+    padding-left:42.5%;
+    padding-right:42.5%; 
     padding-top:2.5%;
 }
 img#smallerpic {
     width:65%;
     padding-left:17%;
-    padding-top:3%;
+    padding-top:10%;
 }
 iframe {
     width:50%;
