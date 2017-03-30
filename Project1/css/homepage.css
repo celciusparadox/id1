@@ -221,20 +221,7 @@ footer {
     margin-right: 4%;
     margin-top: 20%;
     margin-bottom: 10%;
-}
-a {
-    text-decoration: inherit;
-    box-sizing: inherit;
-}
-.fun {
-    font-family: 'Montserrat', sans-serif;
-    font-size:1em;
-    color:#7e3b49;
-}
-.fun:hover {
-    font-size:1.3em;
-    color:#374d64;
-}
+} 
 /*mobile layout*/
 @media only screen and (max-width:500px) {
 body {
