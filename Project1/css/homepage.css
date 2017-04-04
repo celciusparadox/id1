@@ -9,7 +9,7 @@ body {
 img#lilKidshadow {
     width:100%;
 }
-img#mesmiling {
+img#mecrouched {
     width:15%;
     margin-left:5%;
     margin-right:5%;
@@ -45,7 +45,7 @@ img#gh {
 }
 /* ---- Setting up all the articles -----*/
 article#earth, article#magic, article#janelle, article#pandabear, article#lou, article#dc, article#girl, article#band,
-article#pdoc{
+article#pdoc, article#video {
     display: inline;
     position: relative;
 }
@@ -86,7 +86,11 @@ article#band img {
 article#pdoc img {
     width:50%;
     margin-left:51%;
-    margin-top:2%; 
+    margin-top:2%;
+}
+article#video img {
+    width:68%;
+    margin-top:4%;
 }
 /* ---- Positioning all the texts -----*/
 article h1 {
@@ -98,7 +102,7 @@ article h1 {
 }
 article#earth h1, article#magic h1, article#lou h1,
 article#band h1,
-article#pdoc h1 {
+article#pdoc h1, article#video h1 {
     display: inline;
     bottom: 0;
     right: 0;
