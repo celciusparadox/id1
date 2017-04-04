@@ -91,6 +91,7 @@ article#pdoc img {
 article#video img {
     width:68%;
     margin-top:4%;
+    margin-left:.5%;
 }
 /* ---- Positioning all the texts -----*/
 article h1 {
