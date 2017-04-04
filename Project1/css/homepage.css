@@ -211,6 +211,7 @@ section#id4 {
 section#id5 {
     margin-left:4%;
     margin-right: 4%;
+    margin-top: 7%;
 }        
 section#id6 {
     margin-left:4%;
@@ -283,6 +284,11 @@ body {
         right:5%;
         bottom: 5%;
     }
+    article#earth h1, article#magic h1, article#lou h1,
+article#band h1,
+article#pdoc h1, article#video h1 {
+    display:none;
+}
     p {
         font-size:1em;
         margin-left: 2%;
