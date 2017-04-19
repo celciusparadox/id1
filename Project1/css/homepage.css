@@ -171,16 +171,6 @@ h2 {
 h3 {
     margin-left:4%;
 }
-h4 {
-    position:absolute;
-    margin-left:3%;
-    margin-top:15%;
-    font-family: 'Covered By Your Grace', cursive;
-    font-size:1.8em;
-    letter-spacing:2px;
-    color:#7e3b49;
-
-}
 section#id1 {
     margin-top:2%;
     margin-left:4%;
@@ -271,9 +261,6 @@ body {
     }
     h3 {
        font-size:.7em; 
-    }
-    h4 {
-        display:none;
     }
     article h1 {
         font-size:.5em;
