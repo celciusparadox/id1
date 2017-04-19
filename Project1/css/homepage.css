@@ -45,7 +45,7 @@ img#gh {
 }
 /* ---- Setting up all the articles -----*/
 article#earth, article#magic, article#janelle, article#pandabear, article#lou, article#dc, article#girl, article#band,
-article#pdoc, article#video {
+article#pdoc, article#video, article#freedom {
     display: inline;
     position: relative;
 }
@@ -92,6 +92,11 @@ article#video img {
     width:68%;
     margin-top:4%;
     margin-left:.5%;
+}
+article#freedom img {
+    width:73%;
+    margin-top:1%;
+    margin-left:15%;
 }
 /* ---- Positioning all the texts -----*/
 article h1 {
