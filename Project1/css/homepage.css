@@ -108,7 +108,7 @@ article h1 {
 }
 article#earth h1, article#magic h1, article#lou h1,
 article#band h1,
-article#pdoc h1, article#video h1 {
+article#pdoc h1, article#video h1, article#freedom h1 {
     display: inline;
     bottom: 0;
     right: 0;
@@ -148,7 +148,9 @@ article#band h1 {
 }
 article#pdoc h1 {
     right:39%;
-   bottom:0%;
+    bottom:0%;
+}
+article#freedom h1{
     
 }
 article:hover h1 {
