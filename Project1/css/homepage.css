@@ -266,6 +266,9 @@ body {
         font-size:2em;
         text-shadow: 2px 2px #374d64;
     }
+    article h1 {
+        font-size:.5em;
+    }
     
     h2 {
         font-size:1.3em;
@@ -278,6 +281,7 @@ body {
     
     article#dc h1 {
         left:30%;
+       
     }
     article#lou h1 {
         right:5%;
