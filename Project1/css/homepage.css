@@ -266,9 +266,6 @@ body {
         font-size:2em;
         text-shadow: 2px 2px #374d64;
     }
-    article h1 {
-        display: none;
-    }
     h2 {
         font-size:1.3em;
         line-height:1.1;
@@ -277,7 +274,9 @@ body {
     h3 {
        font-size:.7em; 
     }
-    
+    article h1 {
+        display: none;
+    }
     article#dc h1 {
         left:30%;
     }
@@ -285,7 +284,6 @@ body {
         right:5%;
         bottom: 5%;
     }
-
     p {
         font-size:1em;
         margin-left: 2%;
