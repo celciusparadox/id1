@@ -155,8 +155,12 @@ article#pdoc h1 {
     right:39%;
     bottom:0%;
 }
-article#freedom h1{
+article#freedom h1 {
     
+}
+article#frame h1 {
+     right:1%;
+    bottom:0%;
 }
 article:hover h1 {
     visibility:visible;
