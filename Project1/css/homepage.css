@@ -45,7 +45,7 @@ img#gh {
 }
 /* ---- Setting up all the articles -----*/
 article#earth, article#magic, article#janelle, article#pandabear, article#lou, article#dc, article#girl, article#band,
-article#pdoc, article#video, article#freedom {
+article#pdoc, article#video,article#freedom, article#freeframe {
     display: inline;
     position: relative;
 }
@@ -90,13 +90,18 @@ article#pdoc img {
 }
 article#video img {
     width:68%;
-    margin-top:4%;
+    margin-top:3%;
     margin-left:.5%;
 }
 article#freedom img {
     width:73%;
-    margin-top:1%;
+    margin-top:2%;
     margin-left:15%;
+}
+article#freeframe img {
+    width:45%;
+    margin-top: 2.5%;
+    
 }
 /* ---- Positioning all the texts -----*/
 article h1 {
@@ -108,7 +113,7 @@ article h1 {
 }
 article#earth h1, article#magic h1, article#lou h1,
 article#band h1,
-article#pdoc h1, article#video h1, article#freedom h1 {
+article#pdoc h1, article#video h1, article#freedom h1, article#freeframe h1 {
     display: inline;
     bottom: 0;
     right: 0;
