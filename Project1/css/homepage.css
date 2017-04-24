@@ -277,7 +277,7 @@ body {
     }
     
     article#dc h1 {
-        left:30%;
+       display:none;
     }
     article#lou h1 {
         right:5%;
