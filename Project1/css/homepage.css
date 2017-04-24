@@ -266,6 +266,9 @@ body {
         font-size:2em;
         text-shadow: 2px 2px #374d64;
     }
+    article h1 {
+        display: none;
+    }
     h2 {
         font-size:1.3em;
         line-height:1.1;
