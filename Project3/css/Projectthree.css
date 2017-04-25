@@ -24,6 +24,9 @@ header nav ul li {
     float: left;
     position:relative;
 }
+#vid {
+    float: right;
+}
 .group:before, 
 .group:after { content: "\0020";      display: block; height: 0; overflow:     hidden;}
 .group:after { clear: both; }
@@ -71,11 +74,7 @@ footer nav ul li {
     display: block;
     float: left;
 }
-.group:before, 
-.group:after { content: "\0020";      display: block; height: 0; overflow:     hidden;}
-.group:after { clear: both; }
-.group { zoom: 1; 
-}
+
 footer nav a {
     display: block;
     padding:10px;
@@ -121,6 +120,7 @@ section#r1 {
     width:40%;
     margin-left:2.5%;
     margin-right: 30%;
+  
 }
 
 img#hands {

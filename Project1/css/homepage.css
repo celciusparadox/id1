@@ -288,8 +288,9 @@ body {
        
     }
     article#lou h1 {
-        right:5%;
+        left:5%;
         bottom: 5%;
+        margin:0;
     }
     p {
         font-size:1em;
