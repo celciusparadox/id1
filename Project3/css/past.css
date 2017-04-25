@@ -50,7 +50,7 @@ header nav ul li ul li {
     padding:10px;
 }
 footer nav {
-    background: #0f0f0d;position:absolute;
+    background: #0f0f0d;
     width:100%;
     font-family: 'Crete Round', serif;
     color:#a4d0c4;
@@ -65,6 +65,21 @@ footer nav ul {
 footer nav ul li {
     display: block;
     float: left;
+}
+.group:before, 
+.group:after { content: "\0020";      display: block; height: 0; overflow:     hidden;}
+.group:after { clear: both; }
+.group { zoom: 1; 
+}
+footer nav a {
+    display: block;
+    padding:10px;
+    color:#a4d0c4;
+    text-decoration: none;
+}
+footer nav a:hover {
+    background: #0f0f0d;
+    color:darkgoldenrod;
 }
 header nav ul li:hover ul {
     display: block; 
