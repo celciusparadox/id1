@@ -105,7 +105,7 @@ article#frame img {
 article#jared img {
     width:80%;
     margin-left:10%;
-    margin-top: 2.5%;
+    margin-top:2.5%;
 }
 /* ---- Positioning all the texts -----*/
 article h1 {
@@ -299,7 +299,9 @@ body {
         bottom: 5%;
         margin:0;
     }
-    article#jared 
+    article#jared {
+        width:80%;
+    } 
     p {
         font-size:1em;
         margin-left: 2%;
