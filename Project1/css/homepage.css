@@ -166,6 +166,9 @@ article#frame h1 {
      right:1%;
     bottom:0%;
 }
+article#jared h1 {
+    right:none;
+}
 article:hover h1 {
     visibility:visible;
 }
@@ -296,6 +299,7 @@ body {
         bottom: 5%;
         margin:0;
     }
+    article#jared 
     p {
         font-size:1em;
         margin-left: 2%;
