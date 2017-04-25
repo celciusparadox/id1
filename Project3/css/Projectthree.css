@@ -141,7 +141,7 @@ img#hands {
     }
     h1 {
     font-family: 'Crete Round', serif;
-    color:darkgoldenrod;
+    color:#a4d0c4;
     font-weight:550;
     margin-right:111115%;
     position:absolute;
@@ -181,7 +181,7 @@ img#hands {
     }
     footer nav {
     
-        margin-left:10%;
+        margin-left:6%;
         margin-right: 5%;
     }
 }
