@@ -103,3 +103,41 @@ section#r1 {
 img#freedom {
     width:100%;
 }
+/*mobile layout*/
+@media only screen and (max-width:700px) {
+    body {
+        width:100%;
+        margin:0;
+        padding:0;
+        background-color:#0f0f0d;
+    }
+    h1 {
+    font-family: 'Crete Round', serif;
+    color:darkgoldenrod;
+    font-weight:550;
+    margin-right:111115%;
+    position:absolute;
+    margin-right:25%;
+    margin-left:2%;
+    font-size:2em;
+    text-shadow: 2px 2px #374d64;
+}
+    section#r1 {
+    width:80%;
+    margin-left:10%;
+    margin-right: 10%;
+}
+    h2 {
+    font-family: 'Crete Round', serif;
+    color:#a4d0c4;
+    font-weight:550;
+    line-height:1.3;
+    margin-right:10%;
+}
+    p {
+    font-family: 'Crete Round', serif;
+    color:#a4d0c4;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing:1.5px
+}
