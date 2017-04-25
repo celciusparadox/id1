@@ -24,8 +24,9 @@ header nav ul li {
     float: left;
     position:relative;
 }
-#vid {
+#indian {
     float: right;
+    margin-right:4%;
 }
 .group:before, 
 .group:after { content: "\0020";      display: block; height: 0; overflow:     hidden;}
