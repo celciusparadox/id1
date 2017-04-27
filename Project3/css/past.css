@@ -43,6 +43,7 @@ header nav ul li ul {
     display:none;
     position:absolute;
     background:#0f0f0d;
+    z-index:100;
 }
 header nav ul li ul li {
     display:block;

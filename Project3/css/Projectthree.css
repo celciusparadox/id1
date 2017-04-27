@@ -30,16 +30,12 @@ header nav ul li {
    margin-top: 10%;
  
 }
-.group:before, 
-.group:after { content: "\0020";      display: block; height: 0; overflow:     hidden;}
-.group:after { clear: both; }
-.group { zoom: 1; 
-}
+
 header nav a {
     display: block;
     padding:10px;
     color:#a4d0c4;
-    text-decoration: none;
+    text-decoration:none;
     margin-left:17%;
 }
 header nav a:hover {
@@ -50,6 +46,7 @@ header nav ul li ul {
     display:none;
     position:absolute;
     background:#0f0f0d;
+    z-index:100;
 }
 header nav ul li ul li {
     display:block;
@@ -57,7 +54,13 @@ header nav ul li ul li {
     padding:10px;
 }
 header nav ul li:hover ul {
-    display: block; 
+    display: block;
+  
+}
+.group:before, 
+.group:after { content: "\0020"; display: block; height: 0; overflow: hidden;}
+.group:after { clear: both; }
+.group { zoom: 1; 
 }
 footer nav {
     background: #0f0f0d;
@@ -127,6 +130,7 @@ section#r1 {
     margin-right: 30%;
   margin-bottom: 8%;
 }
+
 
 img#hands {
     width:100%;
