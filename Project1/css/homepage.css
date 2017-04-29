@@ -279,6 +279,7 @@ body {
     }
     article h1 {
         font-size:.5em;
+        display:none;
     }
     
     h2 {
@@ -289,7 +290,12 @@ body {
     h3 {
        font-size:.7em; 
     }
-    
+    article#earth h1{
+        display:none;
+    }
+    article#magic {
+        display:none;
+    }
     article#dc h1 {
         left:30%;
        
@@ -299,12 +305,39 @@ body {
         bottom: 5%;
         margin:0;
     }
-    article#jared {
+    article#jared h1{
         width:80%;
-    } 
+        display:none;
+    }
+    article#janelle h1 {
+    display:none;
+}
+    article#pandabear h1 {
+    display:none;
+}
+    article#girl h1 {
+    display:none;
+}
+    article#band h1 {
+    display:none;
+}
+    article#pdoc h1 {
+    display:none;
+}
+    article#freedom h1 {
+    display:none;
+}
+    article#frame h1 {
+     display:none;
+}
     p {
         font-size:1em;
         margin-left: 2%;
         margin-right: 2%;
     }
+    article:hover h1 {
+  display: none;
+       
+}
+    
 }

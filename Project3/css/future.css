@@ -240,7 +240,7 @@ img#freedom {
 
     }
     section#foot nav ul li:hover ul {
-        display:block;
+        display:none;
         width:200%;
         padding-top:10px;
         padding-left:10px;
