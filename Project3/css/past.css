@@ -82,8 +82,8 @@ h1 {
     text-shadow: 6px 6px #0f0f0d;
 }
 section#foot {
-    margin-top:20%;
-    margin-right:
+    margin-top:40%;
+   
 }
 h2 {
     font-family: 'Crete Round', serif;
@@ -216,7 +216,6 @@ img#locked {
         font-weight: 600;
         line-height: 1.3;
         clear:both;
-        padding-top:20px;
         padding-bottom: 0;
 
     }
@@ -292,6 +291,7 @@ img#locked {
     }
     footer {
         margin-bottom: 10%;
+     
     }
 }
 
