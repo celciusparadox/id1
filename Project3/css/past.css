@@ -269,7 +269,7 @@ img#locked {
         float: left;
         position:relative;
         width:30%;
-        margin-left:60%;
+       
 
     }
     h4 {
@@ -291,7 +291,7 @@ img#locked {
         margin-top: 70%;
     }
     footer {
-        margin-bottom: 10%;
+        margin-bottom: 0%;
      
     }
     section#foot {
