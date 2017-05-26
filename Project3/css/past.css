@@ -269,6 +269,7 @@ img#locked {
         float: left;
         position:relative;
         width:30%;
+        margin-left:60%;
 
     }
     h4 {
