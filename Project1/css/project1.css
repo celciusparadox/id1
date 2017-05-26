@@ -61,6 +61,9 @@ iframe {
     background-color:black;
     color:white; 
     }
+     img#motiongraphic {
+    width:100%;
+} 
   h1 {
     margin-left:1%;
     margin-right:1%;
@@ -76,10 +79,7 @@ iframe {
       margin-right: 7.5%;
       font-size:.7em;
     }
- img#motiongraphic {
-    width:100%;
-} 
-  img#firstpic {
+img#firstpic {
     width:90%;
 margin-left:5%;
 padding-right:5%;
