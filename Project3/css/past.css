@@ -150,7 +150,7 @@ section#r1 {
 img#locked {
     width:100%;
 }
-/*mobile layout*/
+/*mobile layout
 @media only screen and (max-width:1080px) {
     body {
         width:100%;
@@ -291,7 +291,7 @@ img#locked {
         margin-top: 70%;
     }
     footer {
-        margin-bottom: 0%;
+        margin-bottom: 10%;
      
     }
     section#foot {
@@ -299,7 +299,7 @@ img#locked {
    
 }
         
-}
+}*/
 
 /*mobile layout*/
 @media only screen and (max-width:700px) {
