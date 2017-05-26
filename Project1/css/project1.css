@@ -76,9 +76,11 @@ iframe {
       margin-right: 7.5%;
       font-size:.7em;
     }
-  
-  img#firstpic {
+ img#motiongraphic {
     width:100%;
+} 
+  img#firstpic {
+    width:90%;
 margin-left:5%;
 padding-right:5%;
     margin-top:10%;
