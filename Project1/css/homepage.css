@@ -336,6 +336,9 @@ body {
     display:none;
 }
     article#typsyEX h1 {
+    display:none;
+    }
+    article#typsyEX2 h1 {
         display:none;
     }
     article#frame h1 {
