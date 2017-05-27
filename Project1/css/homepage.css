@@ -335,6 +335,9 @@ body {
     article#freedom h1 {
     display:none;
 }
+    article#typsyEX h1 {
+        display:none;
+    }
     article#frame h1 {
      display:none;
 }
