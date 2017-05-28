@@ -6,6 +6,7 @@
 body {
     width:100%;
     margin:0;
+    padding-right: 0;
     background-color:black;
     color:whitesmoke;
 }
@@ -54,15 +55,17 @@ iframe {
     padding-bottom:5%;
 }
 /*mobile layout*/
-@media only screen and (max-width:700px) {
+@media only screen and (max-width:300px) {
    body {
       width:100%;
        margin:0;
     background-color:black;
-    color:white; 
+     color:whitesmoke;
+       padding:0;
     }
      img#motiongraphic {
     width:100%;
+         padding:0;
 } 
   h1 {
     margin-left:1%;
