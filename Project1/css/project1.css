@@ -46,7 +46,7 @@ img#mashedlogo {
 img#smallerpic {
     width:65%;
    margin-left:17%;
-    padding-top:10%;
+   margin-top:10%;
 }
 iframe {
     width:60%;
@@ -92,7 +92,7 @@ img#mashedlogo {
     width:80%;
     margin-left:10%;
    margin-right:10%; 
-    padding-top:2.5%;
+    margin-top:2.5%;
 }
  
 img#smallerpic {
