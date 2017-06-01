@@ -89,9 +89,9 @@ margin-right:5%;
    
 }
 img#mashedlogo {
-    width:80%;
-    margin-left:10%;
-   margin-right:10%; 
+    width:60%;
+    margin-left:20%;
+   margin-right:20%; 
     margin-top:2.5%;
 }
  
@@ -103,11 +103,13 @@ img#smallerpic {
     
 } 
     iframe {
-    width:95%;
-    margin-left:2.5%;
-    margin-right:2.5%; 
-  margin-top:8%;
-   margin-bottom:5%;
+    display:block;
+        width:95%;
+        margin-left:2.5%;
+        margin-right:2.5%;
+        height:50%;
+        margin-top: 10%;
+        margin-bottom: 5%;
 }
     
     
