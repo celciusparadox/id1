@@ -45,7 +45,7 @@ img#gh {
 }
 /* ---- Setting up all the articles -----*/
 article#earth, article#magic, article#janelle, article#pandabear, article#lou, article#dc, article#girl, article#band,
-article#pdoc, article#video,article#freedom, article#frame, article#jared, article#typsyEX {
+article#pdoc, article#video,article#freedom, article#frame, article#jared, article#typsyEX,article#id2 {
     display: inline;
     position: relative;
 }
@@ -111,6 +111,10 @@ article#typsyEX img {
     width:40%;
     margin-top: 2.5%;
     margin-left: 55%;
+}
+article#id2 img { width:40%;
+    margin-top: 2.5%;
+    margin-right: 50%;
 }
 /* ---- Positioning all the texts -----*/
 article h1 {
@@ -344,6 +348,10 @@ body {
     article#frame h1 {
      display:none;
 }
+    article#lou h1 {
+          display:none;
+    }
+    article#video h1 { display:none;}
     p {
         font-size:1em;
         margin-left: 2%;
