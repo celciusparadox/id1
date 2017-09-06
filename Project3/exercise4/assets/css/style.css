@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*	A CSS rule has the following syntax:
+		selector { property: style; property: style; property: style; }
+	
+	For a list of CSS properties, see the w3Schools website @ http://www.w3schools.com/css/css_reference.asp */
+
+/*	Jonathan Winfield
+	9-5-2017
+	==================================================
+	Table of Contents
+	==================================================
+		:: Type Selectors
+		:: Class Selectors
+		:: ID Selectors
+*/
+
+/*	Type Selectors
+	================================================== */
+body {
+    background-image: url("../images/bkgd.gif");
+    font: 14px/18px "Helvetica Neue", Helvetica, Ariel, sans-serif;
+    color: #666;
+}
+
+h1,
+h2,
+h3 {
+    color: #333;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 0px;
+}
+
+cite {
+    
+    font-size:  18px;
+    color: #666;
+}
+a:link {
+    
+    color: #e4472f;
+}
+
+a:visited {
+    color: #666;
+    
+}
+a:hover {
+    
+    color: #e4472f;
+    text-decoration: none;
+}
+
+	
+/*	Class Selectors
+	================================================== */
+.wrapper {
+    width: 960px;
+    background-color: #fff;
+    margin: 16px auto;
+    padding: 24px 16px;
+}
+
+/*	ID Selectors
+	================================================== */
+
+blockquote {
+    
+    font: italic 24px/32px Georgia, Times, "Times new Roman";
+    color: #333;
+    background-color: #eee;  
+    padding: 1px 30px; 
+    margin: 0;
+    text-indent: -.5em;
+}
+.content {
+    width: 730px;
+   float: right;
+    margin-right: 20px;
+}
+.photo-right {
+    float:right;
+    padding: 0 0 20px 20px;
+    
+}
+.leadin {
+            
+    font-size: 18px;
+    line-height: 26px;
+    font-style: italic;
+    color: #333;
+}
+.footer {
+    
+    font-size: 11px;
+    line-height: 15px; 
+    clear: both;
+    margin: 0 30px 0 200px;
+}
+
+
+
+/*	ID Selectors
+	================================================== */
+#navigation {
+    background-color: #eee;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 0;
+    width: 190px;
+    float: left;
+    margin: 84px 10px;
+}
+
+
+/* This selects infdividual items within the navigation */
+
+#navigation li a {
+    color: #e4472f;
+    text-decoration: none;
+    border-bottom: 1px dotted #fff;
+    padding: 15px 0px;
+    display: block;
+    padding-left: 15px;
+}
+
+#navigation li a:hover,
+#navigation li a.current {
+    background-color: #e4472f;
+    color: white;
+}
